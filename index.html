@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Moon+Dance&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,400&family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js" defer></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Interactive card details form</title>
+  </head>
+  <body>
+    <div class="box">
+      <div class="bg">
+        <div class="bgImg"></div>
+      </div>
+
+      <div class="card">
+        <div class="cardFront">
+          <img class="frontImg" src="images/bg-card-front.png" alt="" />
+          <div class="fronText">
+            <h2 class="cardNum">0000 0000 0000 0000</h2>
+            <div downCard>
+              <h2 class="cardName">Jane Appleseed</h2>
+              <h2 class="cardDate">00/00</h2>
+            </div>
+          </div>
+
+          <div class="cardBack">
+            <img class="backImg" src="images/bg-card-back.png" alt="" />
+            <h6 class="cardCvc">000</h6>
+          </div>
+        </div>
+      </div>
+      <div class="box-information">
+        <div class="box-in">
+          <div class="nameDiv">
+            <p>Cardholder Name</p>
+            <input
+              class="cardinp cardinp-1"
+              type="text"
+              name=""
+              id="inputName"
+              placeholder="e.g. Jane Appleseed"
+              maxlength="20"
+            />
+          </div>
+
+          <div class="numDiv">
+            <p>Card Number</p>
+            <input
+              class="cardinp cardinp-1"
+              type="text"
+              name=""
+              id="inputNumber"
+              placeholder="e.g. 1234 5678 9123 0000"
+              maxlength="16"
+            />
+          </div>
+
+          <div class="inp-head">
+            <p>Exp. Date (MM/YY)</p>
+            <p>CVC</p>
+          </div>
+
+          <div class="card-specifics">
+            <div class="dateDiv">
+              <input
+                class="cardinp cardinp-2"
+                type="text"
+                name=""
+                id="inputMonth"
+                placeholder="MM"
+                maxlength="2"
+              />
+
+              <input
+                class="cardinp cardinp-2"
+                type="text"
+                name=""
+                id="inputYear"
+                placeholder="YY"
+                maxlength="2"
+              />
+            </div>
+
+            <div class="cvc">
+              <input
+                class="cardinp cardinp-3"
+                type="text"
+                name=""
+                id="inputCvc"
+                placeholder=" e.g.123"
+                maxlength="3"
+              />
+            </div>
+          </div>
+
+          <div class="ceevee"></div>
+        </div>
+        <button class="confirm-btn">Confirm</button>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Your Name Here</a>.
+        </div>
+      </div>
+    </div>
+    <!-- Completed state start -->
+
+    <!-- Thank you! We've added your card details Continue -->
+  </body>
+</html>
